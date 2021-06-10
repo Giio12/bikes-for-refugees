@@ -36,6 +36,27 @@ button {
 
 /* Buttons */
 /* INSERT BUTTON STYLES HERE */
+.button-primary:hover,
+.button-primary:focus{
+	background: #ef7f52;
+  }
+.button-secondary {
+	background: white;
+	color: #ce5f31;;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	}
+	
+	.button-primary {
+	background: #ce5f31;;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	} 
 
 
 /* Alert */
@@ -66,6 +87,8 @@ button {
 /* Jumbotron */
 .jumbotron {
 	border-radius: 0;
+	background-image: url("/home/gio/Escritorio/bikes-for-refugees/images/header-bike.jpg");
+	color: white;
 }
 
 /* Headings */
@@ -90,10 +113,29 @@ button {
 	background: #ce5f31;
 }
 
+
 /* Article */
+.article-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.article-wrapper .article{
+	width: 48%;
+}
+.article-wrapper :hover{
+	background: lightgray;
+}
 .article {
 	margin-bottom: 2em;
-}
+	display:flow-root;
+	border: 1px solid lightgray;
+	padding: 15px;
+	border-radius: 5px;
+	}
+	
+.article__body {
+	margin-left: 15px;
+	}
 
 .article__title {
 	margin-bottom: 0.5em;
